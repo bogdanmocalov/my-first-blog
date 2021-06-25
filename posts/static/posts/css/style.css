@@ -1,0 +1,29 @@
+#bogdan{
+	position: absolute;
+	background-image:linear-gradient(white, black);
+	width: 1350px;
+	height: max-content;
+	top: 85;
+	right: auto;
+}
+
+header{
+	position: relative;
+}
+
+html {
+	height: 100%;
+	}
+
+
+body{
+	background-image: linear-gradient(green, black);
+}
+
+#yay{
+	position: absolute;
+	width: 1350px;
+	height: max-content;
+	right:auto;
+	background-image: linear-gradient(white, black);
+}
