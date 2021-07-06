@@ -1,29 +1,41 @@
-#bogdan{
-	position: absolute;
-	background-image:linear-gradient(white, black);
+#h{
+	position: relative;
 	width: 1350px;
 	height: max-content;
-	top: 85;
-	right: auto;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	left:8px;
+}
+
+#m{
+	font-size: 40px;
+	color:gold;
+}
+
+#bogdan{
+	position: absolute;
+	background: white;
+	width: 1350px;
+	height: max-content;
+	top: 110px;
+	left: 8px;
 }
 
 header{
 	position: relative;
 }
 
-html {
-	height: 100%;
-	}
-
-
 body{
-	background-image: linear-gradient(green, black);
+	background-image:linear-gradient(rgb(212, 138, 0), rgb(255, 167, 4));
 }
 
 #yay{
-	position: absolute;
+	position: relative;
+	top:65px;
 	width: 1350px;
 	height: max-content;
-	right:auto;
-	background-image: linear-gradient(white, black);
+	left: 8px;
+	background: white;
+	padding-left: 20px;
 }

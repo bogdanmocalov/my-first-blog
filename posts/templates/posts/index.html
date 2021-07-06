@@ -1,18 +1,7 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Главная страница</title>
-    <link type="text/css" href="{% static 'posts/css/style.css' %}" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <img src='{% static "posts/img/header.png" %}' width="1350px">
-    </header>
-    <div id = 'bogdan'>
-        <center><h3>Мои статьи:</h3></center>
-    </div>
-    <div id = "yay"></div>
-</body>
-</html>
+    {% extends 'posts/base.html' %}
+    
+{% block content %}
+    {% for post in posts %}
+            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+    {% endfor %}</div>
+{% endblock %}
